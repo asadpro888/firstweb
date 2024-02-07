@@ -1,0 +1,228 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+span,a{
+    display: inline-block;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+.wrap{
+    padding-left: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 200px;
+    justify-content: space-between;
+    margin-top: 50px;
+    align-items: center;
+}
+.link{
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.h1{
+    text-transform: capitalize;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 65%;
+}
+.p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    color: silver;
+    margin-top: 20px;
+    width: 80%;
+}
+.bttn{
+    background-color: palevioletred;
+    border: none;
+    padding: 6px;
+    color: aliceblue;
+    border-radius: 5px;
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.sec-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 80px;
+    padding-left: 210px;
+}
+.wrap2{
+    width: 48%;
+}
+.img{
+    width: 48%;
+}
+.box{
+    background-color: rgb(114, 247, 247);
+    padding-left: 210px;
+    padding-right: 210px;
+    margin-top: 60px;
+}
+.text{
+    width: 70%;
+    margin-left: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.date{
+    margin-left: 9px;
+    color: silver;
+}
+.wrap4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 30px;
+    align-items: center;
+}
+.p9{
+    text-transform: capitalize;
+    font-size: 36px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+}
+.spn{
+    color: rgb(0, 94, 62);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.box2{
+    width: 50%;
+    background-color: aliceblue;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 400px;
+    padding: 5px;
+}
+.div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.h2{
+    text-transform: capitalize;
+    color: darkblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 9px;
+}
+.p10{
+    font-size: 20px;
+}
+.section{
+    padding-left: 210px;
+    padding-right: 210px;
+}
+.portfolio{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 2px solid silver;
+}
+.rasm{
+    width: 50%;
+}
+.write{
+    width: 50%;
+    margin-left: -150px;
+}
+.dashboard{
+    color: purple;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.button{
+    color: aliceblue;
+    background-color: purple;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+.spn1{
+    color: silver;
+    text-transform: capitalize;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.lorem{
+    margin-top: 10px;
+    color: purple;
+    text-align: justify;
+}
+.line{
+    border-bottom: 2px solid silver;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.links{
+    text-align: center;
+    margin-top: 200px;
+}
+.icon{
+    font-size: 30px ;
+    color: silver;
+    margin-right: 5px;
+    transition: 0.5s all linear;
+    margin-bottom: 100px;
+}
+.icon:hover{
+    color: red;
+}
+.c-span{
+    font-size: 10px;
+    color: silver;
+    letter-spacing: 3px;
+}
+.link10{
+    color: red;
+}
+.headline{
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 70px;
+    margin-bottom: 80px;
+}
+.h22{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+.paragraph{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-bottom: 40px;
+}
+.box-tox{
+    border-bottom: 2px solid silver;    
+}
+.espn{
+    margin-left: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.sec{
+    padding-right: 210px;
+    padding-left: 210px;
+}
+.height{
+    width: 3px;
+    height: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: silver;
+}
